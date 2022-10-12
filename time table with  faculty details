@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script type="text/javascript">
+        <!--
+           function rohith() {
+              alert("Hello World")
+           }
+        //-->
+     </script>
+    <style>
+        body{
+            background-color: rgb(6, 87, 124);
+        }
+        h1{
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            background-color: black;
+        }
+        div{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+            
+        }
+        marquee{
+            font-size: 50px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(178, 123, 230);
+        }
+        table{
+            border-color: rgb(3, 3, 3);
+            border-style: groove;
+            border-block-color: rgb(0, 17, 255);
+            
+    
+        }
+
+        th{
+            width: 5%;
+            text-align: center;
+            color: black;
+            font-size: 30px;
+            background-color: rgb(178, 123, 230);
+            
+            
+        }
+        td{
+            width: 5%;
+            text-align: center;
+            color: aliceblue;
+            background-color: black;
+        }
+        button{
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+        }
+        a{
+            color: aliceblue;
+            font-style: italic;
+            background-color: rgb(0, 0, 0);
+            text-decoration: double;
+
+        }
+ 
+        
+
+    </style>
+</head>
+<body>
+    <h1>Dr.NGP arts and science college, Coimbatore</h1>
+    <marquee>Autonomus</marquee>
+    <div>
+        <h2>Bsc. Computer Technology</h2>
+         <h2>1 - B</h2>
+        <h2>Class Timetable</h2>
+    </div>
+    <table name="TOP">
+        <tr>
+            <th>STAFF</th>
+            <td>TAMIL</td>
+            <td>ENGLISH</td>
+            <td>NMS</td>
+            <td>PSP</td>
+            <td>DCF</td>
+        </tr>
+    </table>
+    <table border="2",>
+        <tr>
+            <TH>DAY/PERIOD</TH>
+            <TH>1</TH>
+            <TH>2</TH>
+            <th rowspan="6">BREAK</th>
+            <TH>3</TH>
+            <TH>4</TH>
+            <th rowspan="6">LUNCH</th>
+            <TH>5</TH>
+            <TH>6</TH>
+        </tr>
+        <tr>
+            <th>MONDAY</th>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/tamil/Kalaivani.pdf">TAMIL</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">PSP</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><B><button><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/Leelavathi.pdf">DCF</a></button></B></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/mathematics/Kannaki.pdf">NMS</a></B></button></td>
+        </tr>
+        <tr>
+            <th>TUESDAY</th>
+            <td colspan="2"><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">LAB</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/mathematics/Kannaki.pdf">NMS</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">PSP</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/tamil/Kalaivani.pdf">TAMIL</a></B></button></td>
+        </tr>
+        <tr>
+            
+            <th>WEDNESDAY</th>
+            <td><button><b><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></b></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">PSP</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/mathematics/Kannaki.pdf">NMS</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/Leelavathi.pdf">DCF</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/tamil/Kalaivani.pdf">TAMIL</a></B></button></td>
+        </tr>
+        <tr>
+            <th>THURSDAY</th>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/Leelavathi.pdf">DCF</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/mathematics/Kannaki.pdf">NMS</a></B></button></td>
+            <td colspan="2"><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">LAB</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/tamil/Kalaivani.pdf">TAMIL</a></B></button></td>
+        </tr>
+        <tr>
+            <th>FRIDAY</th>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">PSP</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/commerce/Priyanka.pdf">ENGLISH</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/V.Manimekalai.pdf">PSP</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/tamil/Kalaivani.pdf">TAMIL</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/mathematics/Kannaki.pdf">NMS</a></B></button></td>
+            <td><button><B><a href="https://www.drngpasc.ac.in/pdf/profile/computer_technology/Leelavathi.pdf">DCF</a></B></button></td>
+        </tr>
+    </table>
+    
+
+   
+
+</body>
+</html>
